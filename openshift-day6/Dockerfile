@@ -4,4 +4,3 @@ WORKDIR /tmp/app
 COPY server.js .
 RUN npm install express
 CMD [ "node", "server.js" ]
-EXPOSE 3000
