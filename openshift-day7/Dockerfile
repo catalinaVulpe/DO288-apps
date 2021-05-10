@@ -5,4 +5,4 @@ ENV MYSQL_PASSWORD=somepasswd
 ENV MYSQL_DATABASE=testdatabase
 ENV MYSQL_ROOT_PASSWORD=rootpasswd
 
-COPY test.sql /var/lib/mysql/data
+COPY test.sql /tmp
