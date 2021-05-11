@@ -1,3 +1,7 @@
 FROM mysql:latest
+ENV MYSQL_USER=default
+ENV MYSQL_PASSWORD=default
+ENV MYSQL_DATABASE=db
+ENV MYSQL_ROOT_PASSWORD=root
 COPY test.sql /tmp
 
